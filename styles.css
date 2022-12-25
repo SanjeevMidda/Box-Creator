@@ -1,0 +1,42 @@
+*{
+    margin: 10px;
+    font-weight: 300;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+input{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.button{
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.move{
+    transition: transform 1000ms;
+}
+
+.move:hover{
+    transform: scale(1.2);
+    background-color: blue;
+}
